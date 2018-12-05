@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Patrick Landers, Student, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      CMSIS_AGDI.dll V1.29.10.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\pxl95\OneDrive\Documents\Classes\landers_branch\IDE\Ebola\project.uvprojx
+Project File Date:  11/29/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+MK64F12.h(13705): warning:  #1-D: last line of file ends without a newline
+   
+main.c(82): warning:  #177-D: variable "servoPID"  was declared but never referenced
+      PID servoPID;
+main.c(83): warning:  #177-D: variable "speedPID"  was declared but never referenced
+      PID speedPID;
+main.c(84): warning:  #177-D: variable "is_turning"  was declared but never referenced
+      bool is_turning;
+main.c(85): warning:  #177-D: variable "turning_left"  was declared but never referenced
+  	bool turning_left;
+main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=5644 RO-data=1056 RW-data=16 ZI-data=1376  
+".\Objects\project.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_K60_DFP.1.5.0.pack
+                Keil.Kinetis_K60_DFP.1.5.0
+                NXP Kinetis K60 Series Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_MK64F12.s
+      Source file:   Device\Source\system_MK64F12.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

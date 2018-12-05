@@ -1,0 +1,12 @@
+.\objects\motor.o: motor.c
+.\objects\motor.o: MK64F12.h
+.\objects\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\motor.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+.\objects\motor.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+.\objects\motor.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\objects\motor.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\objects\motor.o: C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\system_MK64F12.h
+.\objects\motor.o: motor.h
+.\objects\motor.o: uart.h
+.\objects\motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\motor.o: util.h
